@@ -25,3 +25,9 @@ console.log(students.length);
 const getColleName = () => {
     console.log("am arrow func");
 };
+
+
+const getName=(name)=>{
+    console.log(`hi,${name}"`);
+};
+getName("astha");
